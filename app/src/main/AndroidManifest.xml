@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.studyjamscn.s1.sj124.zhangshun1">
+
+    <application
+        android:name="cn.studyjamscn.s1.sj124.zhangshun1.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="cn.studyjamscn.s1.sj124.zhangshun1.MainActivity"
+            android:theme="@style/AppThemeNoAction">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.studyjamscn.s1.sj124.zhangshun1.ListActivity"
+            android:label="诗歌分类"/>
+        <activity android:name="cn.studyjamscn.s1.sj124.zhangshun1.DetailActivity"
+            android:label="诗歌正文"
+            android:parentActivityName="cn.studyjamscn.s1.sj124.zhangshun1.CardListActivity"/>
+        <activity android:name="cn.studyjamscn.s1.sj124.zhangshun1.CardListActivity"
+            android:label="诗歌介绍"
+            android:parentActivityName="cn.studyjamscn.s1.sj124.zhangshun1.ListActivity"/>
+    </application>
+
+</manifest>

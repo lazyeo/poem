@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- group1 -->
+
+    <!--<item-->
+        <!--android:id="@+id/fontBig"-->
+        <!--android:icon="@drawable/font_big"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--android:title="@string/fontBig"/>-->
+    <!--<item-->
+        <!--android:id="@+id/fontSmall"-->
+        <!--android:icon="@drawable/font_small"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--android:title="@string/fontSmall"/>-->
+
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical"
+    tools:context="cn.studyjamscn.s1.sj124.zhangshun1.DetailActivity"
+    android:padding="32dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:elevation="1dp"
+            android:layout_margin="5dp"
+            android:layout_centerInParent="true"
+            android:padding="8dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/test"
+                android:scaleType="centerCrop"
+                android:alpha="0.1"/>
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/VerOutline"
+                android:foregroundGravity="right">
+                <cn.studyjamscn.s1.sj124.zhangshun1.TextViewVertical
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="4dp"
+                    android:id="@+id/theContent">
+
+                </cn.studyjamscn.s1.sj124.zhangshun1.TextViewVertical>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="40sp"
+                android:layout_height="wrap_content"
+                android:text="我只是个签名"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:id="@+id/sign"
+                android:layout_alignParentBottom="true"
+                android:textColor="@android:color/black"/>
+
+        </RelativeLayout>
+
+
+</LinearLayout>

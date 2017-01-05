@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "868766645015",
+    "firebase_url": "https://chinesepoem-675d8.firebaseio.com",
+    "project_id": "chinesepoem-675d8",
+    "storage_bucket": "chinesepoem-675d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868766645015:android:f513da02b65f75e1",
+        "android_client_info": {
+          "package_name": "cn.studyjamscn.s1.sj124.zhangshun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868766645015-g7dchqc6t9is51e9gl2eln08ujpa6kcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cn.studyjamscn.s1.sj124.zhangshun",
+            "certificate_hash": "B0A222F15B086065EEEB8E145F1EA1C42D3686DC"
+          }
+        },
+        {
+          "client_id": "868766645015-2n0dhrjg9grt3pn602majkd8i2eqakru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXiaHHhH0Ka8XkaGLHrblMaNTq7MZHvSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868766645015-2n0dhrjg9grt3pn602majkd8i2eqakru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868766645015:android:9ffbb980d931b6d3",
+        "android_client_info": {
+          "package_name": "cn.studyjamscn.s1.sj124.zhangshun1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868766645015-2n0dhrjg9grt3pn602majkd8i2eqakru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXiaHHhH0Ka8XkaGLHrblMaNTq7MZHvSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
